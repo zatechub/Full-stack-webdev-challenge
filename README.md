@@ -17,7 +17,7 @@ Use the following free and open API to gather data data:
 - [Game of Thrones API](https://anapioficeandfire.com/Documentation#houses)
 
 ### Architecture Hint
-![diagram](./diagram.png)
+![diagram](https://user-images.githubusercontent.com/78954930/184639598-35ad8191-9617-43a6-9a90-4d2a50aca307.png)
 
 ### Requirements
 
