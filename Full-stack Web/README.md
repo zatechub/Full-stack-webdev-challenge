@@ -1,4 +1,4 @@
-# Fullstack Web-App Coding Challenge 👨🏼‍💻
+# Full-stack Web-App Coding Challenge 👨🏼‍💻
 
 ## Task
 
@@ -17,7 +17,7 @@ Use the following free and open API to gather data data:
 - [Game of Thrones API](https://anapioficeandfire.com/Documentation#houses)
 
 ### Architecture Hint
-![diagram](./diagram.png)
+![diagram](https://user-images.githubusercontent.com/78954930/184639598-35ad8191-9617-43a6-9a90-4d2a50aca307.png)
 
 ### Requirements
 
@@ -26,8 +26,12 @@ Use the following free and open API to gather data data:
     - Backend: Spring-boot, Kotlin
 - The Frontend is not allowed to communicate with 3rd party (external api) directly
 - The Backend acts as a middleware
-- Use a PRIVATE github repository to provide us your project
+- Use a PRIVATE GitHub repository to provide us your project
+
+### Attach
+
+Please remember to write tests and implement a thorough and detailed documentation of your project to accompany your submission, in order for your application to be considered by our reviewers.
 
 ### Hint
 
-Keep in mind that his is a demonstration of your capabilites. So go ahead and impress us 🤯
+Keep in mind that this is a demonstration of your capabilities. So go ahead and impress us 🤯
