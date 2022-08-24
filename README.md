@@ -1,33 +1,35 @@
-# Fullstack Web-App Coding Challenge 👨🏼‍💻
+#   Mobile-App Coding Challenge 👨🏼‍💻
 
-## Task
+##  Challenge
 
-Create a website where you can search for 'houses' of Game of Thrones.
-As a result of the search, the page will show a list of houses that partially match the search query.
+Create a mobile application. The app should show the user all Game of Thrones houses in a list.
 
-If you click on a house in the result list, detailed information about this house will be shown.
-
-Please treat the coding challenge as if you were going to show it to a client afterwards and need to further work on it as a team in the future.
-Design and UX are completely up to your creativity.
+It should be possible to select a house from the list. By tapping on a entry the house should appear in a detail view were you should display more information to the selected house.
 
 ### APIs and Docs
 
-Use the following free and open API to gather data data:
+* [Game Of Thrones API](https://anapioficeandfire.com)
 
-- [Game of Thrones API](https://anapioficeandfire.com/Documentation#houses)
+## Requirements
 
-### Architecture Hint
-![diagram](https://user-images.githubusercontent.com/78954930/184639598-35ad8191-9617-43a6-9a90-4d2a50aca307.png)
+- Build a native app
+  - Android
+    - Code using Kotlin
+    - Min. API Level 21
+    - Avoid use of third party dependencies where possible
+    - Select on of the following UI-Toolkits:
+      - Legacy: use `RecyclerView`
+      - Jetpack Compose
+  - iOS
+    - Code using Swift
+    - Deployment Target iOS 14
+    - No use of third party dependencies
+- Please provide the full git repository when sending in your results
 
-### Requirements
+### Attach
 
-- Use a Backend For Frontend architecture 
-    - Frontend: React, typescript
-    - Backend: Spring-boot, Kotlin
-- The Frontend is not allowed to communicate with 3rd party (external api) directly
-- The Backend acts as a middleware
-- Use a PRIVATE github repository to provide us your project
+Please remember to write tests and implement a thorough and detailed documentation of your project to accompany your submission, in order for your application to be considered by our reviewers.
 
 ### Hint
 
-Keep in mind that his is a demonstration of your capabilites. So go ahead and impress us 🤯
+Keep in mind that this is a demonstration of your capabilities. So go ahead and impress us 🤯
