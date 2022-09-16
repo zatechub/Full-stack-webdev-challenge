@@ -1,37 +1,18 @@
-# Fullstack Web-App Coding Challenge 👨🏼‍💻
+# Backend Coding Challenge: Module Dependency Challenge
 
-## Task
+### ProjectStructure
+This Spring-Boot-Project consists of three Submodules (`inquiry`, `notification` and `application`).
+The `notification`-Module depends on the `inquiry`-Module. The `application` depends on both and serves as Spring boot main module.
 
-Create a website where you can search for 'houses' of Game of Thrones.
-As a result of the search, the page will show a list of houses that partially match the search query.
+The `InquiryTest` calls `InquiryService#create(Inquiry)` and checks wether the methods `EmailHandler#sendEmail(Inquiry)`
+and `PushNotificationHandler#sendNotification` have been called with the same parameters.
 
-If you click on a house in the result list, detailed information about this house will be shown.
-
-Please treat the coding challenge as if you were going to show it to a client afterwards and need to further work on it as a team in the future.
-Design and UX are completely up to your creativity.
-
-### APIs and Docs
-
-Use the following free and open API to gather data data:
-
-- [Game of Thrones API](https://anapioficeandfire.com/Documentation#houses)
-
-### Architecture Hint
-![diagram](https://user-images.githubusercontent.com/78954930/184639598-35ad8191-9617-43a6-9a90-4d2a50aca307.png)
-
-### Requirements
-
-- Use a Backend For Frontend architecture 
-    - Frontend: React, typescript
-    - Backend: Spring-boot, Kotlin
-- The Frontend is not allowed to communicate with 3rd party (external api) directly
-- The Backend acts as a middleware
-- Use a PRIVATE GitHub repository to provide us your project
-
-### Attach
-
-Please remember to write tests and implement a thorough and detailed documentation of your project to accompany your submission, in order for your application to be considered by our reviewers.
-
-### Hint
-
-Keep in mind that this is a demonstration of your capabilities. So go ahead and impress us 🤯
+### Acceptance Criteria: 
+- After an Inquiry has been created, `EmailHandler#sendEmail(Inquiry)` and `PushNotificationHandler#sendNotification` have to be executed
+- the `InquiryTest` has to be successful
+ 
+### general conditions:
+- the classes `Inquiry`, `InquiryTest` and `Application` shall not be modified
+- the existing classes shall not be moved between the modules
+- the dependencies between the modules shall not be customized
+- Any other gradle dependencies can be added
